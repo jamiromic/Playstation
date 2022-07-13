@@ -1,0 +1,18 @@
+.button_nav {
+    background-color: #363636;
+}
+
+.size_nav {
+    font-size: 0.70rem;
+}
+
+.returnal {
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.button_hero {
+    background-color: #CD3D0F;
+}
