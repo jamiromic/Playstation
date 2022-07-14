@@ -1,18 +1,42 @@
-.button_nav {
-    background-color: #363636;
-}
+/* Variables */
 
-.size_nav {
-    font-size: 0.70rem;
-}
+:root {
+    --bg-color-header-top: #363636;
 
-.returnal {
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    background-size: cover;
-    background-position: center;
 
 }
 
-.button_hero {
+
+/* Header Start */
+
+.btn_nav {
+    background-color: var(--bg-color-header-top);
+}
+
+.chevron:hover {
+    
+    content: url(../img/chevron-down-solid-hover.svg);
+
+}
+
+/* Header End */
+
+/* Carousel Start */
+
+.button_carousel {
     background-color: #CD3D0F;
 }
+
+.carousel {
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+
+}
+
+.hero_card_returnal {
+    padding-top: 13rem;
+}
+
+/* Carousel End  */
+
+
