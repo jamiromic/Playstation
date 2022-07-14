@@ -2,6 +2,7 @@
 
 :root {
     --bg-color-header-top: #363636;
+    --color-border-img: #2285D5;
 
 
 }
@@ -25,16 +26,43 @@
 
 .button_carousel {
     background-color: #CD3D0F;
+    font-size: 10px;
+    width: 80px;
 }
 
-.carousel {
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+.carousel_top {
+    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position-x: center;
 
 }
 
 .hero_card_returnal {
-    padding-top: 13rem;
+    padding-top: 4rem;
+}
+
+.title_returnal {
+    font-size: 26px;
+}
+
+.text_carousel {
+    font-size: 11px;
+}
+
+
+.img_returnal {
+    width: 30%;
+
+}
+
+.img_carousel {
+    border-radius: 15px;
+    
+}
+
+.img_carousel:hover {
+    border: 1px solid var(--color-border-img);
+    padding: 2px;
 }
 
 /* Carousel End  */
