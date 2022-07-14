@@ -3,6 +3,9 @@
 :root {
     --bg-color-header-top: #363636;
     --color-border-img: #2285D5;
+    --color-text-ps5-no-limits: #0273CE;
+    --color-text-ps5: #727272;
+    --color-button-blue: #2D64E6;
 
 
 }
@@ -66,5 +69,41 @@
 }
 
 /* Carousel End  */
+
+/* Playstation 5 Model Start */
+
+.no_limits {
+    color: var(--color-text-ps5-no-limits);
+    font-size: 10px;
+}
+
+.ps5_title {
+    font-size: 24px;
+}
+
+.ps5_text {
+    font-size: 12px;
+    color: var(--color-text-ps5);
+}
+
+.button_ps5 {
+    background-color: var(--color-button-blue);
+    font-size: 10px;
+}
+
+.name_thumbnail {
+    font-size: 11px;
+}
+
+.card_thumbnail {
+    opacity: 0.5;
+}
+
+
+.card_thumbnail:hover {
+    opacity: 1;
+    border-bottom: 1px solid var(--color-text-ps5-no-limits);
+}
+
 
 
