@@ -6,10 +6,37 @@
     --color-text-ps5-no-limits: #0273CE;
     --color-text-ps5: #727272;
     --color-button-blue: #2D64E6;
+    --color-button-salmon: #CD3D0F;
+    --color-light-dark: #1F1F1F;
 
 
 }
 
+/* Tags General */
+
+.button_salmon {
+    background-color: var(--color-button-salmon);
+    font-size: 10px;
+    width: 80px;
+}
+
+.game_card_ {
+    padding-top: 4rem;
+}
+
+.title_game {
+    font-size: 26px;
+}
+
+.text_game {
+    font-size: 11px;
+}
+
+
+.img_game {
+    width: 30%;
+
+}
 
 /* Header Start */
 
@@ -27,11 +54,7 @@
 
 /* Carousel Start */
 
-.button_carousel {
-    background-color: #CD3D0F;
-    font-size: 10px;
-    width: 80px;
-}
+
 
 .carousel_top {
     background-image: url(../img/jumbo-bg.png);
@@ -40,23 +63,7 @@
 
 }
 
-.hero_card_returnal {
-    padding-top: 4rem;
-}
 
-.title_returnal {
-    font-size: 26px;
-}
-
-.text_carousel {
-    font-size: 11px;
-}
-
-
-.img_returnal {
-    width: 30%;
-
-}
 
 .img_carousel {
     border-radius: 15px;
@@ -105,5 +112,17 @@
     border-bottom: 1px solid var(--color-text-ps5-no-limits);
 }
 
+/* Playstation 5 Model End */
 
+/* Takes Two Section Star */
+
+
+.takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position-x: center;
+
+}
+
+/* Takes Two Section End */
 
