@@ -12,6 +12,7 @@
     --color-grey-light: #D9DADC;
     --color-white-smoke: #F5F5F5;
     --color-blue-dark: #161C3B;
+    --color-blue-medium: #00439C;
 
 
 }
@@ -106,7 +107,7 @@ body {
 }
 
 .ps5_title {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .ps5_text {
@@ -218,6 +219,28 @@ body {
 /* Social Media Section Start */
 
 /* Social Media Section End */
+
+
+/* Footer Start */
+
+footer {
+    background-color: var(--color-blue-medium);
+}
+
+.country_region_text {
+    font-size: 10px;
+    color: white;
+}
+
+.text_footer {
+    font-size: 11px;
+}
+
+
+/* Footer End */
+
+
+
 
 
 
