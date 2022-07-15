@@ -8,11 +8,18 @@
     --color-button-blue: #2D64E6;
     --color-button-salmon: #CD3D0F;
     --color-light-dark: #1F1F1F;
+    --color-grey: #BEBCBB;
+    --color-grey-light: #D9DADC;
 
 
 }
 
 /* Tags General */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 .button_salmon {
     background-color: var(--color-button-salmon);
@@ -125,4 +132,63 @@
 }
 
 /* Takes Two Section End */
+
+/* New Games Section Start */
+
+.new_games {
+    background-color: var(--color-light-dark);
+}
+
+.new_games_title {
+    font-size: 22px;
+}
+
+.new_games_text {
+    font-size: 18px;
+
+}
+
+.title_game_ps5 {
+    font-size: 12px;
+
+}
+
+.img_games_ps5 {
+    border-radius: 10px;
+
+}
+
+/* New Games Section End */
+
+.explore_text {
+    line-height: 12px
+
+    
+}
+
+/* To Explore Section Start */
+
+
+
+
+
+/* To Explore Section End */
+
+/* Playstation Plus Section Start */
+
+.playstation_plus {
+    background-color: var(--color-grey);
+}
+
+.button_grey {
+    background-color: var(--color-grey-light);
+    font-size: 10px;
+    color: var(--color-button-blue);
+}
+
+/* Playstation Plus Section End */
+
+
+
+
 
