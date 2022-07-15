@@ -10,6 +10,8 @@
     --color-light-dark: #1F1F1F;
     --color-grey: #BEBCBB;
     --color-grey-light: #D9DADC;
+    --color-white-smoke: #F5F5F5;
+    --color-blue-dark: #161C3B;
 
 
 }
@@ -18,13 +20,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-
-.button_salmon {
-    background-color: var(--color-button-salmon);
-    font-size: 10px;
-    width: 80px;
 }
 
 .game_card_ {
@@ -44,6 +39,26 @@ body {
     width: 30%;
 
 }
+
+/* Buttons */
+
+.button_general {
+    font-size: 11px;
+}
+
+.button_salmon {
+    background-color: var(--color-button-salmon);
+}
+
+.button_blue {
+    background-color: var(--color-button-blue);
+}
+
+.button_grey {
+    background-color: var(--color-grey-light);
+    color: var(--color-button-blue);
+}
+
 
 /* Header Start */
 
@@ -71,7 +86,6 @@ body {
 }
 
 
-
 .img_carousel {
     border-radius: 15px;
     
@@ -96,14 +110,10 @@ body {
 }
 
 .ps5_text {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--color-text-ps5);
 }
 
-.button_ps5 {
-    background-color: var(--color-button-blue);
-    font-size: 10px;
-}
 
 .name_thumbnail {
     font-size: 11px;
@@ -180,13 +190,36 @@ body {
     background-color: var(--color-grey);
 }
 
-.button_grey {
-    background-color: var(--color-grey-light);
-    font-size: 10px;
-    color: var(--color-button-blue);
+
+.text_ps_plus {
+    font-size: 12px;
 }
 
 /* Playstation Plus Section End */
+
+
+/* Discount Section Start */
+
+/* Discount Section End */
+
+/* Playstation Now Section Start */
+
+.playstation_now {
+    background-color: var(--color-blue-dark);
+}
+
+.buttons_white {
+    background-color: var(--color-white-smoke);
+
+}
+
+/* Playstation Now Section End */
+
+/* Social Media Section Start */
+
+/* Social Media Section End */
+
+
 
 
 
