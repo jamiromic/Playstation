@@ -83,7 +83,13 @@ body {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position-x: center;
+    height: 400px;
 
+}
+
+.game_card {
+    top: 180px;
+    left: 20px;
 }
 
 
@@ -122,6 +128,7 @@ body {
 
 .card_thumbnail {
     opacity: 0.5;
+    
 }
 
 
@@ -139,7 +146,13 @@ body {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position-x: center;
+    height: 400px;
 
+}
+
+.game_card_tt {
+    top: 40px;
+    left: 10px;
 }
 
 /* Takes Two Section End */
