@@ -101,6 +101,7 @@ body {
 .img_carousel:hover {
     border: 1px solid var(--color-border-img);
     padding: 2px;
+    margin-bottom: -3px;
 }
 
 /* Carousel End  */
@@ -123,7 +124,7 @@ body {
 
 
 .name_thumbnail {
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .card_thumbnail {
@@ -135,6 +136,7 @@ body {
 .card_thumbnail:hover {
     opacity: 1;
     border-bottom: 1px solid var(--color-text-ps5-no-limits);
+    margin-bottom: -0.80px;
 }
 
 /* Playstation 5 Model End */
